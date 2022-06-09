@@ -1,3 +1,22 @@
 .nav-link:hover{
     font-size: 18px;
 }
+.logo-association{
+    font-size: 14px;
+}
+.navbar-brand{
+    color:black;
+}
+.navbar-brand:hover{
+    color:black;
+}
+.btn{
+    background-color: #098011; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
