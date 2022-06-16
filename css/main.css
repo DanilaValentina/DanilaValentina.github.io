@@ -25,3 +25,13 @@
     object-fit: cover;
     object-position: center;
 }
+.my-card-text{
+    text-align: justify;
+}
+.mt-carousel{
+    margin-top: 110px;
+}
+/* #donateFood, #donateMoney{
+    margin-top: 180px;
+} */
+
