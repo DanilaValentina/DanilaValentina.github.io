@@ -207,8 +207,8 @@
               </div>
             </div>
           </div>
-          <section>
-          </section>
+    </section>
+  </section>
           <div class="card mb-3 container " style="text-align: center ;">
             <img src="/Imagini/Voluntari/1.jpg" class="card-img-top" alt="..." >
             <div class="card-body">
@@ -218,8 +218,38 @@
               <p class="card-text"><small class="text-muted"></small></p>
             </div>
             <div class="d-grid gap-2 col-6 mx-auto">
-              <button class="btn btn-secondary" type="button">Contact Us</button>
-              
+              <button class="btn btn-secondary" type="button" data-bs-toggle="modal"data-bs-target="#exampleModalRegister" data-bs-whatever="@mdo">Register</button>
+              <div class="modal fade" id="exampleModalRegister" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Your Contacts</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="nameSurname" placeholder="Name, Surname">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="Telephone" placeholder="Telephone no.">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="Email" placeholder="E-mail">
+                        </div>
+                        <div class="mb-3">
+                          <label for="message-text" class="col-form-label">What recomends you:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Send</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
